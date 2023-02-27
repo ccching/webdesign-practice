@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.ct{
+    padding: 300px 30%;
+}
+.table{
+    background-color: red;
+
+ 
+}
+.tr button{
+    height:900px;
+}
+.td{
+    width:150px;
+    background-color: red;
+}
+.btn{
+    width: 50%;
+    font-size: 30px;
+    height: 
+}
+.btn-click{
+    width: 302px;
+    font-size:30px;
+}
+.txt{
+    width: 600px;
+    font-size: 30px;
+    text-align:right;
+}

@@ -1,0 +1,207 @@
+body {
+    background-color: #fff;
+}
+.resume {
+	min-width: 996px;
+	margin: 0 auto;
+    width: 70%;
+    background-size: cover;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.6);
+}
+.top {
+    position: relative;
+    color: #000;
+    width: 500px;
+}
+.resume-image img {
+    width: 996px;
+    height: 280px;
+    position: relative;
+    margin-left: auto;
+    margin-top: auto;
+    z-index: 80;
+    background: #f00;
+}
+.myphoto img {
+    width: 300px;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+.myphoto {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: 100px;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: -230px;
+    z-index: 100;
+    border: solid 2px #fff;
+}
+.name {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-top: -310px;
+    left: 670px;
+    transform: translate(-50%, -50%);
+    color: #47333b;
+    text-shadow: 2px 2px 5px white;
+
+    z-index: 130;
+}
+
+.left,
+.right {
+
+    display: inline-block;
+    height: 700px;
+}
+.left {
+    background-color: #ccc5a7;
+    width: 41%;
+    float: left;
+}
+.contact,
+.phone,
+.email,
+.line,
+.instagram {
+    font-family: Times;
+    font-size: 16px;
+    position: relative;
+}
+.contact img,
+.phone img,
+.email img,
+.line img,
+.instagram img {
+    width: 40px;
+}
+.phone img,
+.email img,
+.line img,
+.instagram img {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.phone a,
+.email a,
+.line a,
+.instagram a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.phone p,
+.email p,
+.line p,
+.instagram p {
+    margin-top: -30px;
+    margin-left: 95px;
+}
+.contact img {
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.contact h2 {
+    margin-top: -40px;
+    margin-left: 95px;
+    font-size: 24px;
+}
+.software li {
+    display: flex;
+
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+.block h3 {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 60px;
+    font-family: 金萱體;
+    font-weight: normal;
+    color: white;
+    background-color: #a4865c;
+    width: 150px;
+    text-indent: 20px;
+}
+
+.software .bar {
+    width: 180px;
+    height: 10px;
+    border: solid 0.5px #a4865c;
+    border-radius: 30px;
+}
+
+.value {
+    height: 100%;
+    width: 60%;
+    background-color: #a4865c;
+    border-radius: 30px;
+}
+
+.value.p30 {
+    width: 30%;
+}
+
+.value.p50 {
+    width: 50%;
+}
+
+.value.p65 {
+    width: 65%;
+}
+.value.p80 {
+    width: 80%;
+}
+
+.value.p90 {
+    width: 90%;
+}
+.right {
+    background-color: #b0baa6;
+    width: 59%;
+}
+.right h3 {
+    font-size: 20px;
+    font-family: 金萱體;
+    font-weight: normal;
+    color: white;
+    background-color: #8098a6;
+    width: 300px;
+    margin-left: 20px;
+    text-indent: 20px;
+}
+
+.experience a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.education {
+    margin-top: 55px;
+}
+.education p,
+.contest p,
+.certificate p,
+.experience p {
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: -20px;
+    line-height: 35px;
+}

@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	background-color: #FAFAFA;
+	margin: 0;
+}
+
+/*HEADER*/
+
+.header{
+	width: 100%;
+	background-color: #ffffff;
+	height: 55px;
+	position: -webkit-sticky;
+	position: sticky;
+	position: fixed;
+	top: 0;
+	border-bottom-style: solid ;
+	border-bottom-width: 1px;
+	border-color: #dddddd;
+	z-index: 99999;
+
+
+}
+.logo{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 253px;
+	width: 105px;
+	height: 35px;
+}
+
+.logo1 img {
+	width: 100%;
+}
+.search{
+	position: relative;
+	width: 215px;
+	height: 28px;
+	margin-top: -30px;
+	margin-left: 300px;
+	border-width: 1.8px;
+	border-radius: 3px;
+	border-color: #dddddd;
+
+}
+.search input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1.8px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fafafa;
+  background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  padding: 14px 10px 12px 25px;
+  outline: none;
+}
+.fas{
+	font-size: 10px;
+	z-index: 999999;
+	position: absolute;
+	color: #939393;
+	margin-left: 308px;
+	margin-top: 6px;
+}
+.content{
+	display: inline-block;
+}
+
+.icon{
+	display: flex;
+	position: relative;
+	margin-left: 985px;
+	margin-top: -32px;
+}
+.home,.direct,.explore,.heart,.my{
+	margin-right: 10px;
+	width:35px;
+	height: 35px;
+}
+.home img,.direct img ,.explore img ,.heart img,.my img{
+	width:100%;
+}
+.my img{
+	margin-left: 3px;
+	margin-top: 7px;
+	width: 65%;
+	border-radius: 50%;
+}
+/*left*/
+.left{
+	width: 62%;
+}
+.time{
+	position: relative;
+	margin-top: 85px;
+	margin-left:253px;
+	padding-bottom: 24px;
+	width: 615px;
+	height: 115px;
+	background-color: #ffffff;
+	border-style: solid ;
+	border-width: 1.8px;
+	border-radius: 2px;
+	border-color: #dddddd;
+	font-family: BlinkMacSystemFont;
+	font-size: 12px;
+	display: flex;
+}
+.time1{
+	margin: 15px;
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background:-webkit-linear-gradient(top right,#981F6A,#F9275C,#FFA248,#FD9338);	
+}
+.time1 img{
+	position: relative;
+	margin-top: 2px;
+	margin-left: 1.95px;
+	width: 93%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 50%;
+
+}
+.tn1{
+	position: relative;
+	margin-top: 3px;
+	margin-left: 2px;
+}
+.post{
+	margin-top: 25px;
+	margin-left: 253px;
+	border-style: solid ;
+	border-width: 1.8px;
+	border-radius: 2px;
+	border-color: #dddddd;
+	width: 615px;
+	background-color: #ffffff;
+}
+.pu{
+	height: 53px;
+	display: inline-block;
+}
+.pd{
+	margin-top: -5px;
+}
+.pup{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 40px;
+	height: 40px;
+}
+.name{
+	position: relative;
+	font-family:"Segoe UI";
+	font-weight: 600;
+	font-size: 14px;
+	font-weight: solid;
+	margin-top: -32px;
+	margin-left: 67px;
+}
+.dot{
+	position: relative;
+	font-size: 22px;
+	margin-top: -30px;
+	margin-left: 570px;
+}
+
+.pup img{
+	margin-left: 2px;
+	margin-top: 2px;
+	border-radius: 50%;
+	width: 80%;
+
+
+
+}
+.pd{
+	height: 260px;
+	margin-top: 4px;
+}
+.like,.word,.share{
+	width: 40px;
+	height: 40px;
+}
+.like{
+	margin-left: 16px;
+}
+.like img{
+	width: 80%;
+}
+.word{
+	position: relative;
+	margin-top: -30.3px;
+	margin-left: 61px;
+}
+.word img{
+	position: relative;
+	width: 80%;
+	margin-top: -10px;
+}
+.share{
+	position: relative;
+	margin-top: -48.3px;
+	margin-left: 108px;
+}
+.share img{
+	width: 90%;
+}
+.book{
+	width: 45px;
+	height: 45px;
+	margin-left: 570px;
+	margin-top: -45px;
+}
+.book img{
+	position: relative;
+	width: 70%;
+	margin-top: 0px;
+}
+.namec,.liken{
+	margin-left: 20px;
+	font-family:"Segoe UI";
+	font-weight: 600;
+	font-size: 14px;
+	color: #313131;
+	line-height: 1.8;
+}
+
+.namec span{
+	color: #ababab;
+	font-weight: 400;
+}
+.review{
+	margin-top: 73px;
+	margin-left: -2px;
+	width: 615px;
+	height: 65px;
+	border-style: solid ;
+	border-width: 1.8px;
+	border-radius: 2px;
+	border-color: #dddddd;
+
+}
+.review input{
+	width: 580px;
+	border: none;
+	margin-top: 18px;
+	margin-left: 15px;
+	font-size: 15px;
+	outline: none;
+}
+.mid{
+	height: 60px;
+	margin-left: -2px;
+	width: 615px;
+	background-color: #FAFAFA;
+	border-style: solid ;
+	border-width: 1.8px;
+	border-radius: 2px;
+	border-color: #dddddd ;
+	border-left: none;
+	border-right: none;
+}
+.rlove{
+	position: relative;
+	margin-left: 560px;
+	margin-top: -50px;
+	width: 16px;
+	height: 16px;
+}
+.rlove img{
+	width: 100%;
+}
+
+/*right*/
+.right{
+	margin-left: 900px;
+	margin-top: -2225px;
+	width: 38%;
+}
+.aboutme{
+	display: flex;
+}
+.mp{
+	margin-top: 15px;
+	width: 60px;
+	height: 60px;
+}
+.mp img{
+	width: 100%;
+	border-radius: 50%;
+
+}
+.mew{
+	margin-top: 25px;
+	margin-left: 20px;
+	font-family:Arial;
+	font-weight: 550;
+	font-size: 14px;
+	color: #313131;
+	line-height: 1.6;
+}
+.mew a:hover{
+	text-decoration: none;
+}
+.mew span{
+	color: #939393;
+	font-weight: 500;
+	font-size: 14px;
+}
+.sugess{
+	margin-left: -160px;
+	margin-top: 95px;
+}
+.s1{
+	font-size: 14px;
+	color: #939393;
+	font-family: Arial;
+	font-weight: 500;
+}
+.s1 span{
+	font-size: 12px;
+	color: black;
+}
+.pc{
+	margin-top: 14px;
+	margin-left: 5px;
+	width: 35px;
+	height: 35px;
+
+}
+.pc img{
+	width: 100%;
+	border-radius:50%; 
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+
+}
+.pcn{
+	position: relative;
+	margin-top: -35px;
+	margin-left: 50px;
+	font-size: 14px;
+	color: black;
+	font-family: "Segoe UI";
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.pcn span{
+	font-size: 12px;
+	color: #939393;
+	font-weight: 500;
+}
+.follow{
+	position: relative;
+	margin-top: -40px;
+	margin-left: 265px;
+	font-size: 12px;
+	color: #279FFA;
+	font-family: Arial;
+	font-weight: 800;
+
+}
+.pc2{
+	margin-top: 25px;
+	margin-left: 5px;
+	width: 35px;
+	height: 35px;
+}
+.pc2 img{
+	width: 100%;
+	border-radius:50%; 
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+
+}
+.footer{
+	margin-top: 40px;
+	font-size: 12px;
+	color: #cfcfcf;
+	line-height: 1.6;
+}
+.footer a{
+	color: #cfcfcf;
+}
+.footer a:hover{
+	text-decoration: none;
+}

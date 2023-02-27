@@ -1,0 +1,14 @@
+input{
+	width: 30px;
+	height: 20px;
+	text-align: center;
+}
+input [type=text]{
+	width: 180 px;
+	border-style: none;
+	text-align: right;
+}
+#tbCalculator td{
+	text-align: center;
+	vertical-align: middle;
+}
